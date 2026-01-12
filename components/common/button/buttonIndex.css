@@ -1,0 +1,21 @@
+button {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 6px;
+    transition: transform 0.2s, background 0.2s;
+    flex: 1;
+}
+
+button:hover {
+    background-color: #444;
+    transform: scale(1.02);
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

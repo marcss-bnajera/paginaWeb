@@ -22,32 +22,6 @@ main {
     box-shadow: 0 15px 35px rgba(0,0,0,0.08);
 }
 
-.hero {
-    background: linear-gradient(135deg, #003366 0%, #002244 100%);
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-    border-bottom: 5px solid #ff6600;
-}
-
-.logo-placeholder {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 4px;
-    margin-bottom: 15px;
-    opacity: 0.9;
-}
-
-.hero h1 {
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-}
-
-.tagline {
-    font-weight: 300;
-    opacity: 0.8;
-}
-
 section {
     padding: 40px;
 }
@@ -93,32 +67,6 @@ p {
     padding-top: 0;
 }
 
-button {
-    background-color: #1a1a1a;
-    border: none;
-    border-radius: 6px;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background-color: #444;
-}
-
-button a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 12px 30px;
-    font-weight: 600;
-}
-
-footer {
-    text-align: center;
-    padding: 25px;
-    font-size: 0.85rem;
-    color: #999;
-    border-top: 1px solid #eee;
-}
 
 @media (max-width: 600px) {
     .pilares {

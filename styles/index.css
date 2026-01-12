@@ -40,7 +40,6 @@ h2, h3 {
     padding-left: 10px;
 }
 
-/* Estilo de la lista de gustos */
 ul {
     list-style: none;
 }
@@ -67,36 +66,12 @@ ul li b {
     margin-right: 5px;
 }
 
-/* Botones y Enlaces */
 .enlaces-container {
     display: flex;
     gap: 10px;
     margin-top: 20px;
 }
 
-button {
-    background-color: #1a1a1a;
-    border: none;
-    border-radius: 6px;
-    transition: transform 0.2s, background 0.2s;
-    flex: 1; /* Hace que los botones midan lo mismo */
-}
-
-button:hover {
-    background-color: #444;
-    transform: scale(1.02);
-}
-
-button a {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    padding: 12px;
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
-/* Ajuste para quitar el <br> visualmente si es necesario */
 br {
     display: none;
 }
