@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #2d3436;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+main {
+    max-width: 650px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #636e72;
+    margin: 30px 0 15px 0;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+}
+
+/* Estilo de la lista de gustos */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #edf2f7;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background: #ffffff;
+    border-color: #d1d8e0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+ul li b {
+    color: #2d3436;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Botones y Enlaces */
+.enlaces-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 6px;
+    transition: transform 0.2s, background 0.2s;
+    flex: 1; /* Hace que los botones midan lo mismo */
+}
+
+button:hover {
+    background-color: #444;
+    transform: scale(1.02);
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Ajuste para quitar el <br> visualmente si es necesario */
+br {
+    display: none;
+}

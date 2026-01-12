@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #2d3436;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+main {
+    max-width: 750px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: justify;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #d1d8e0;
+}
+
+button {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+    transform: translateX(-5px);
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+p:contains(":(") {
+    border-left-color: #fab1a0;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
