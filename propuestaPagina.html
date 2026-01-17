@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,39 @@
     <title>Propuesta Pagina</title>
 </head>
 <body>
-
     <main>
+        <nav class="navbar">
+            <div class="navbar-brand">KINAL</div>
+            <ul class="nav-links">
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+                <li><a href="#apoyanos">Apoyanos</a></li>
+                <li><a href="#educacion">Educación</a></li>
+            </ul>
+        </nav>
+        
         <header class="hero">
             <div class="logo-placeholder">KINAL</div>
             <h1>Formando Técnicos de Excelencia</h1>
             <p class="tagline">Centro Educativo Técnico Laboral</p>
         </header>
 
-        <section class="intro">
+        <section id="quienes-somos" class="intro">
             <h2>Sobre Nosotros</h2>
             <p>Fundación Kinal es una obra de educación integral que nace en Guatemala para promover la dignidad de la persona a través del trabajo técnico profesional. Nos enfocamos en jóvenes que buscan transformar su vida y la de su familia mediante una formación de alta calidad.</p>
         </section>
 
-        <section class="pilares">
+        <section class="carrusel-seccion">
+            <h2>Nuestras Instalaciones (Desliza para ver más)</h2>
+
+            <div class="carrusel-scroll-snap">
+                <img src="assets/img/inst1.png" alt="Instalación 1">
+                <img src="assets/img/inst2.avif" alt="Instalación 2">
+                <img src="assets/img/inst3.jpg" alt="Instalación 3">
+            </div>
+
+        </section>
+
+        <section class="pilares" id="educacion">
             <div class="card">
                 <h3>Formación Técnica</h3>
                 <p>Especialidades en Informática, Mecánica, Electricidad y más, con estándares de industria actuales.</p>
@@ -34,14 +53,13 @@
             </div>
         </section>
 
-        <section class="final-nav">
+        <section class="final-nav" id="apoyanos">
              <button><a href="index.html">Regresar al Inicio</a></button>
         </section>
         
         <footer>
-            <p>© 2026 - Propuesta Académica | Fundación Kinal</p>
+            <p>Propuesta Académica - Fundación Kinal</p>
         </footer>
     </main>
-
 </body>
 </html>
